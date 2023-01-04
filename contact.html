@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/icon.png" />
+  </head>
+
+  <body>
+    <div class="page-wrapper">
+      <header class="top-header">
+        <div class="top-banner">
+          <div id="logo">
+            <img
+              src="images/logo.jpeg"
+              alt=""
+              style="width: 150px; height: 150px; border: 5px solid white"
+            />
+            <h1>THE CAR HOME</h1>
+          </div>
+        </div>
+        <nav class="nav-bar">
+          <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="media.html">MEDIA</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="container" style="margin-top: 100px">
+        <form action="action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Your name.."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Your last name.."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Country</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country">
+                <option value="australia">Canada</option>
+                <option value="canada">Australia</option>
+                <option value="usa">USA</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+              <textarea
+                id="subject"
+                name="subject"
+                placeholder="Write something.."
+                style="height: 200px"
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+
+      <div class="footer" style="margin-top: 80px">
+        <a
+          href="https://www.facebook.com/"
+          target="_blank"
+          style="margin-left: 5px"
+          ><img src="images/facebook.png" width="30" height="30" alt=""
+        /></a>
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          style="margin-left: 5px"
+          ><img src="images/twitter.png" width="30" height="30" alt=""
+        /></a>
+        <a href="https://twitter.com/" target="_blank" style="margin-left: 5px"
+          ><img src="images/instagram.png" width="30" height="30" alt=""
+        /></a>
+        <br />
+        <br />
+        <a href="home.html" style="text-align-last: left"
+          >© 2022 Imantha Sudaraka</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
